@@ -25,4 +25,3 @@ export const App = () => {
   );
 };
 
-console.log(data.title);
