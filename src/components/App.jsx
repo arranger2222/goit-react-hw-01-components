@@ -7,6 +7,7 @@ import transactions from 'transactions.json'
 import user from 'user.json';
 import data from 'data.json';
 
+
 export const App = () => {
   return (
     <>
@@ -23,3 +24,5 @@ export const App = () => {
      </>
   );
 };
+
+console.log(data.title);

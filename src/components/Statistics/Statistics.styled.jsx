@@ -21,3 +21,8 @@ export const StatisticsUl = styled.ul`
     margin: 0;
     padding: 10px 0;
 `;
+
+export const Title = styled.h2`
+  text-transform: uppercase;
+  color: ${p => p.theme.colors.secondaryText};
+`;
